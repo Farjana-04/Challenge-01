@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/*  */
+/* Replaced div */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -54,7 +54,6 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    /* Group discussion is on going icon used as a background image */
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -76,25 +75,9 @@ p {
     margin-left: 20px;
 }
 
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* Added with comma */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -104,87 +87,40 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* Added in one line with comma */
+.search-engine-optimization img,.online-reputation-management img,.social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.search-engine-optimization h2,.online-reputation-management h2,.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .benefits {
+    /* changed margin and padding px */
     margin-right: 25px;
     padding: 40px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* I put single cotation in calibri, so it's make same like other font */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* Create in one line with comma */
+.benefit-lead,.benefit-brand,.benefit-cost  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead h3,.benefit-brand h3,.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-lead img,.benefit-brand img,.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
