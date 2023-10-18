@@ -28,6 +28,28 @@ THEN I find a concise, descriptive title
 ```
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Username](#username)
+- [Email](#email)
+
+## Usage
+Follow the examples on my repo.
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Contribute
+No contributes
+
+## Tests
+Testing is not required
+
+## Deployed Application Link:
 
 
 
@@ -37,7 +59,4 @@ THEN I find a concise, descriptive title
 
 
 
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
 
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
