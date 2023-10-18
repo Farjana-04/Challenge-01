@@ -50,6 +50,7 @@ No contributes
 Testing is not required
 
 ## Deployed Application Link:
+https://farjana-04.github.io/Horiseon-a-Marketing-Agency-s-Webpage/
 
 
 
